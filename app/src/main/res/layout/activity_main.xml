@@ -25,17 +25,19 @@
             android:src="@drawable/sliced_orange" />
 
         <TextView
+            android:id="@+id/itTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
             android:textColor="@color/black"
-            android:text="아이디" />
+            android:text="아이디"
+            android:inputType="textEmailAddress"/>
 
         <EditText
-            android:id="@+id/idText"
+            android:id="@+id/idEdt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="이메일 양식" />
+            android:hint="이메일 양식" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +49,7 @@
             android:id="@+id/passwordText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="비밀번호 입력" />
+            android:hint="비밀번호 입력" />
 
         <CheckBox
             android:id="@+id/AutoCbx"
